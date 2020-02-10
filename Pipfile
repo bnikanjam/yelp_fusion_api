@@ -14,6 +14,7 @@ pytest-cov = "*"
 
 [packages]
 bandit = "*"
+requests = "*"
 
 [requires]
 python_version = "3.8"
