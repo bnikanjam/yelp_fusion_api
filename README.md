@@ -1,30 +1,12 @@
-# Project Title
+# Yelp Fusion API
 
-Project short description
+Using search Yelp API to query for businesses by a search term and location, and the Business API to query additional information about the top result from the search query.
 
+##### CLI:
+The Yelp Fusion API uses private key authentication to authenticate all endpoints. Export your API Key to the os environment.
+```$ python -m app --term="Albatross" --location="Danville, CA"```
 
-### Technologies
-
-##### Development Tools:
-**Bandit:** A security linter to find common security issues in Python code.
-
-**pytest:** The pytest framework makes it easy to write small tests, yet scales to support complex functional testing.
-
-**pytest-cov:** Pytest plugin produces coverage reports.
-
-**pipenv:** Managing dependencies and development environments for collaborative Python projects!
-
-**mypy:** Optional static type checker for Python that combines the benefits of dynamic typing and static typing.
-
-**flake8:** Enforce [PEP8 style guidelines](https://www.python.org/dev/peps/pep-0008/).
-
-**black:** Opinionated Code auto-formatter!
-
-**isort:** Sort imports alphabetically and automatically separated into sections.
-
-
-### Set up Python Local Development
-### Run Tests
 
 ---
-###### Acknowledgements 
+###### Acknowledgements
+- [API documentation](https://www.yelp.com/developers/documentation/v3)
